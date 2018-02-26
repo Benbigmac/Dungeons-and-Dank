@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="race_array">
+        <item>Race</item>
+        <item>Human</item>
+        <item>Elf</item>
+        <item>Orc</item>
+        <item>Goblin</item>
+        <item>Halfling</item>
+        <item>Dwarf</item>
+        <item>Half-Orc</item>
+        <item>Half-Elf</item>
+        <item>Kobold</item>
+        <item>Lizardfolk</item>
+    </string-array>
+</resources>

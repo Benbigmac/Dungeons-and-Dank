@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="profession_array">
+        <item>Profession</item>
+        <item>Warrior</item>
+        <item>Archer</item>
+        <item>Thief</item>
+        <item>Bard</item>
+        <item>Barbarian</item>
+        <item>Wizard</item>
+        <item>Cleric</item>
+        <item>Knight</item>
+        <item>Paladin</item>
+        <item>Townsman</item>
+    </string-array>
+</resources>
