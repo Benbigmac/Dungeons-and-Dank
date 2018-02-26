@@ -1,4 +1,6 @@
-import static definitions.Definitions.*;
+package com.dontworryaboutit.dungeonsanddank;
+
+import definitions.Definitions;
 import java.util.ArrayList;
 import java.util.Arrays;
 

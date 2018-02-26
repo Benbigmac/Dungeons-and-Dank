@@ -1,3 +1,6 @@
+package com.dontworryaboutit.dungeonsanddank;
+
+
 public abstract class Items {
     private String name;
     private int cost;
