@@ -1,8 +1,14 @@
 package com.dontworryaboutit.dungeonsanddank;
 
-import definitions.Definitions;
 import java.util.ArrayList;
 import java.util.Arrays;
+
+import static com.dontworryaboutit.definitions.Definitions.COMMON;
+import static com.dontworryaboutit.definitions.Definitions.BLUDGEONING;
+import static com.dontworryaboutit.definitions.Definitions.NONEXISTANT;
+import static com.dontworryaboutit.definitions.Definitions.PIERCING;
+import static com.dontworryaboutit.definitions.Definitions.SLASHING;
+import static com.dontworryaboutit.definitions.Definitions.PorS;
 
 public class Weapons extends Items{
     private int handed;

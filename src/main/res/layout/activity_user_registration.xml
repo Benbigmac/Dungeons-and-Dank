@@ -17,10 +17,12 @@
 
             <AutoCompleteTextView
                 android:id="@+id/autoCompleteTextView3"
-                android:layout_width="wrap_content"
+                android:layout_width="331dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/autofill_first_name" />
+                android:hint="@string/autofill_first_name"
+                android:maxLines="1"
+                android:singleLine="true" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -29,10 +31,12 @@
 
             <AutoCompleteTextView
                 android:id="@+id/autoCompleteTextView4"
-                android:layout_width="wrap_content"
+                android:layout_width="331dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/autofill_last_name" />
+                android:hint="@string/autofill_last_name"
+                android:maxLines="1"
+                android:singleLine="true" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -41,10 +45,12 @@
 
             <AutoCompleteTextView
                 android:id="@+id/autoCompleteTextView"
-                android:layout_width="wrap_content"
+                android:layout_width="331dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/autofill_email" />
+                android:hint="@string/autofill_email"
+                android:maxLines="1"
+                android:singleLine="true" />
 
         </android.support.design.widget.TextInputLayout>
 
@@ -54,17 +60,25 @@
 
             <AutoCompleteTextView
                 android:id="@+id/autoCompleteTextView5"
-                android:layout_width="wrap_content"
+                android:layout_width="331dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/autofill_password" />
+                android:hint="@string/autofill_password"
+                android:maxLines="1"
+                android:singleLine="true" />
         </android.support.design.widget.TextInputLayout>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/confirm"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/action_confirm" />
+
+        <Button
+            android:id="@+id/Cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/action_cancel" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
