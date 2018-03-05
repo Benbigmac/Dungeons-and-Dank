@@ -12,7 +12,7 @@ public class CharacterCreationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_character_creation);
 
-        Spinner spinner = (Spinner) findViewById(R.id.race);
+        final Spinner spinner = (Spinner) findViewById(R.id.race);
         // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.race_array, android.R.layout.simple_spinner_item);
@@ -21,7 +21,7 @@ public class CharacterCreationActivity extends AppCompatActivity {
         // Apply the adapter to the spinner
         spinner.setAdapter(adapter);
 
-        Spinner spinner2 = (Spinner) findViewById(R.id.profession);
+        final Spinner spinner2 = (Spinner) findViewById(R.id.profession);
         // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<CharSequence> adapter2 = ArrayAdapter.createFromResource(this,
                 R.array.profession_array, android.R.layout.simple_spinner_item);

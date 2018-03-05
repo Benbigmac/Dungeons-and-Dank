@@ -16,7 +16,7 @@
             android:layout_height="51dp">
 
             <AutoCompleteTextView
-                android:id="@+id/autoCompleteTextView3"
+                android:id="@+id/firstname"
                 android:layout_width="331dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -30,7 +30,7 @@
             android:layout_height="58dp">
 
             <AutoCompleteTextView
-                android:id="@+id/autoCompleteTextView4"
+                android:id="@+id/lastname"
                 android:layout_width="331dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -44,7 +44,7 @@
             android:layout_height="wrap_content">
 
             <AutoCompleteTextView
-                android:id="@+id/autoCompleteTextView"
+                android:id="@+id/rEmail"
                 android:layout_width="331dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -59,7 +59,7 @@
             android:layout_height="wrap_content">
 
             <AutoCompleteTextView
-                android:id="@+id/autoCompleteTextView5"
+                android:id="@+id/rPassword"
                 android:layout_width="331dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
